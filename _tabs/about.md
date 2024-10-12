@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Welcome to my blog! 👋
+Welcome to my blog! 👋
 
 * I am a Senior DevOps Consultant at [Ensono](https://www.ensono.com/gb/)
 * Previously I was a DevOps Engineer at [Coats Digital](https://www.coatsdigital.com/en/)
