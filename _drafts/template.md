@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Put title here
-categories: [Blog]
-tags: [azure,linux]
+categories: [Top Category, Sub Category]
+tags: [TAG] # TAG names should always be lowercase
 ---
 
 Text here.
