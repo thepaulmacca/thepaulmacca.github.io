@@ -29,7 +29,7 @@ I tend to use [kind](https://kind.sigs.k8s.io/), as I find it relatively lightwe
 
 I found the Udemy [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) course to be the best for this exam. The fact that you also get access to practice tests with it aswell makes it worth the money in my opinion.
 
-## Killer Shell CKA
+## CKA Killer Shell
 
 It's also worth going through the [Killer Shell scenarios](https://killercoda.com/cka). These are free, but have a time limit.
 
@@ -37,7 +37,7 @@ It's also worth going through the [Killer Shell scenarios](https://killercoda.co
 
 I found the Udemy [Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/) course to be the best for this exam aswell. Similar to the CKA course, you also get access to practice tests.
 
-## Killer Shell CKAD
+## CKAD Killer Shell
 
 Similar to the CKA, it's also worth going through the [Killer Shell scenarios](https://killercoda.com/killer-shell-ckad).
 
@@ -50,11 +50,11 @@ The lack of material for this exam is quite surprising compared to the CKA/CKAD 
 > This course hasn't been updated for a while now, and given the [upcoming changes to the exam](https://training.linuxfoundation.org/cks-program-changes/), you'll only be able to pick out certain parts of it.
 {: .prompt-warning }
 
-## Killer Shell CKS
+## CKS Killer Shell
 
 You should also go through the [Killer Shell scenarios](https://killercoda.com/killer-shell-cks) for this exam aswell.
 
-## Study Guide
+## CKS Study Guide
 
 I've also been reading this [study guide by Benjamin Muschko](https://amzn.eu/d/6KReKUL), but i'd say that you need to supplement it with the above YouTube course and plenty of labbing!
 
