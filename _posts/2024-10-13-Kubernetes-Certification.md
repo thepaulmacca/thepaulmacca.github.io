@@ -6,6 +6,10 @@ tags: [kubernetes, certifications]
 
 In this short post, I'm going to share some resources that you may find useful if you're thinking of pursuing any of the Kubernetes certifications soon. These are what have worked for me and many others.
 
+Some people don't value certifications all that much - and that's fine, we all have our opinion on them. For me, they provide a structured learning path, and an opportunity to learn some new skills.
+
+I like the Kubernetes certifications in particular as they're performance-based, you can't wing them. You have to be proficient in all areas of the curriculum.
+
 # Curriculum
 
 Before you get going, have a look at the [curriculum repo](https://github.com/cncf/curriculum) and grab a PDF for the exam you're looking to take.
@@ -14,7 +18,7 @@ I tend to like having a local copy to refer to as a reference, to make sure I'm 
 
 # Local Cluster
 
-These are performance-based exams - so it goes without saying that you should have a local cluster for learning, practice and experimentation.
+As mentioned earlier, these are performance-based exams - so it goes without saying that you should have a local cluster for learning, practice and experimentation. It will also help build your confidence, you can break/fix whatever you want to.
 
 I tend to use [kind](https://kind.sigs.k8s.io/), as I find it relatively lightweight and flexible with it's configuration options.
 
