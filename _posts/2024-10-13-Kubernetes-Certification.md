@@ -6,23 +6,31 @@ tags: [kubernetes, certifications]
 
 In this short post, I'm going to share some resources that you may find useful if you're thinking of pursuing any of the Kubernetes certifications soon. These are what have worked for me and many others.
 
-Some people don't value certifications all that much - and that's fine, we all have our opinion on them. For me, they provide a structured learning path, and an opportunity to learn some new skills.
+# Why Get Certified?
 
-I like the Kubernetes certifications in particular as they're performance-based, you can't wing them. You have to be proficient in all areas of the curriculum.
+Some people don't value certifications all that much, and that's fine - we all have our opinion on them. For me, they provide a structured learning path and an opportunity to learn new skills, which is never a bad thing in this day and age.
+
+I like the Kubernetes certifications in particular as they're performance-based, you can't wing them. You must be proficient in all areas of the curriculum, and regular practice needs to be a part of your study plan.
+
+# Exam Simulator
+
+When you purchase an exam it includes 2 exam simulation attempts, use them. If this is the first time you're taking one of these exams, it really helps you get used to the environment (and believe me, it takes some getting used to).
+
+They're also useful to gauge where your weak areas are, and where to focus. I tend to use the first attempt quite early, and then use the second one a few days before taking the exam.
 
 # Curriculum
 
 Before you get going, have a look at the [curriculum repo](https://github.com/cncf/curriculum) and grab a PDF for the exam you're looking to take.
 
-I tend to like having a local copy to refer to as a reference, to make sure I'm focusing in on the right areas.
+I tend to like having a local copy to refer to as a reference, to make sure I'm focusing on the right areas.
 
 # Local Cluster
 
-As mentioned earlier, these are performance-based exams - so it goes without saying that you should have a local cluster for learning, practice and experimentation. It will also help build your confidence, you can break/fix whatever you want to.
+As mentioned earlier, these are performance-based exams - so it goes without saying that you should have a local cluster for learning, practice and experimentation. It will also help build your confidence - you can break/fix whatever you want, when you want, without any time limits being imposed.
 
 I tend to use [kind](https://kind.sigs.k8s.io/), as I find it relatively lightweight and flexible with it's configuration options.
 
-> From the [v.0.24.0 release](https://github.com/kubernetes-sigs/kind/releases/tag/v0.24.0) it includes Network Policy support, so you no longer need to use a CNI plugin like Calico for basic scenarios.
+> From the [v.0.24.0 release](https://github.com/kubernetes-sigs/kind/releases/tag/v0.24.0) it includes network policy support, so you no longer need to use a CNI plugin like Calico for basic scenarios.
 {: .prompt-info }
 
 # Certified Kubernetes Administrator (CKA)
@@ -47,7 +55,7 @@ I've found this exam to be the toughest of them all (it's quite well known for t
 
 The lack of material for this exam is quite surprising compared to the CKA/CKAD given how tough it is, but a lot of people refer to this [YouTube CKS](https://youtu.be/d9xfB5qaOfg?si=xPbBVR9_Pts6kk-p) course by Killer Shell. It's **11 hours** long, so you'll have to break it down into small chunks as there's _a lot_ to take in.
 
-> This course hasn't been updated for a while now, and given the [upcoming changes to the exam](https://training.linuxfoundation.org/cks-program-changes/), you'll only be able to pick out certain parts of it.
+> This course hasn't been updated for a while now, and given the [upcoming changes to the exam](https://training.linuxfoundation.org/cks-program-changes/), you'll only be able to pick out certain parts of it for your study.
 {: .prompt-warning }
 
 ## CKS Killer Shell
