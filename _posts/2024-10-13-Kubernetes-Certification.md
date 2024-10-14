@@ -30,7 +30,10 @@ As mentioned earlier, these are performance-based exams - so it goes without say
 
 I tend to use [kind](https://kind.sigs.k8s.io/), as I find it relatively lightweight and flexible with it's configuration options.
 
-> From the [v.0.24.0 release](https://github.com/kubernetes-sigs/kind/releases/tag/v0.24.0) it includes network policy support, so you no longer need to use a CNI plugin like Calico for basic scenarios.
+> If you're looking for an easy way to get started with a cluster, please check out my [k8s-local-cluster](https://github.com/thepaulmacca/k8s-local-cluster) repo.
+{: .prompt-tip }
+
+> From the [v.0.24.0 kind release](https://github.com/kubernetes-sigs/kind/releases/tag/v0.24.0) it includes network policy support, so you no longer need to use a CNI plugin like Calico for basic scenarios. I've not managed to get them to work yet though, so have stuck with Calico for now until the issue is resolved.
 {: .prompt-info }
 
 # Certified Kubernetes Administrator (CKA)
