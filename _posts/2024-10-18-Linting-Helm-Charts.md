@@ -1,6 +1,6 @@
 ---
 title: Linting Helm Charts with Chart-Testing
-date: 2024-10-18 15:00:00 +0000
+date: 2024-10-18 14:30:00 +0000
 categories: [Kubernetes, Helm]
 tags: [kubernetes, helm, linting, testing]
 ---
