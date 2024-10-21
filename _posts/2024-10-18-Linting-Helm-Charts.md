@@ -39,6 +39,8 @@ Let's introduce an error so you can see the output. I've intentionally added an 
 Error: 1 chart(s) linted, 1 chart(s) failed
 ```
 
+Errors will return a non-zero exit code and fail the pipeline.
+
 ### Feedback Levels
 
 Helm provides 3 levels of actionable feedback about charts. These are useful to know in case you come across them:
@@ -163,7 +165,10 @@ Error: failed linting charts: failed processing charts
 failed linting charts: failed processing charts
 ```
 
-Update your `Chart.yaml` file to add maintainers and _then_ it should pass! ✅
+Update your `Chart.yaml` file to add maintainers and _then_ it should pass. If you want to disable this check, set `--validate-maintainers` to `false`.
+
+> If you're not using either GitHub, GitLab, or Bitbucket - you'll have to disable this check.
+{: .prompt-info }
 
 ### Install Command
 
@@ -175,7 +180,7 @@ For a test cluster, a good option is [kind](https://kind.sigs.k8s.io/) as the cl
 
 To have a look at a successful lint and test of a chart, have a look at this [workflow run](https://github.com/thepaulmacca/chart-testing-demo/actions/runs/11404343387/job/31733302231?pr=1).
 
-> This will work fine in most basic scenarios - but if you're using more advanced tooling and need to connect to external services for your tests, you should use the cluster in your own environment instead of using kind.
+> This will work fine in most basic scenarios - but if you're using more advanced tooling and need to connect to external services for your tests, you should use a cluster in your own environment instead of using kind.
 {: .prompt-info }
 
 ## Summary
